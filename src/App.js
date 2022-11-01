@@ -7,11 +7,11 @@ import Profile from './pages/Profile';
 const App = () => (
     <Router>
       <Nav>
-        <Link to="/">Home</Link>
+        <Link to="/PDrandomUsers">Home</Link>
         <Link to="/search">Search</Link>
       </Nav>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/PDrandomUsers" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/member/:id" element={<Profile />} />
         
